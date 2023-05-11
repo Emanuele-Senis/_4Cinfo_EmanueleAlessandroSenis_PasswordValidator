@@ -9,6 +9,6 @@ The class PasswordValidator validates passwords according to specific rules. It 
 - The password should not contain any white spaces.
  The password should contain at least one special character.
  
-The class provides a Validate method that checks if the password meets all these conditions. 
+The class provides a Validate method that checks if the password meets all these conditions.
 If the password is valid, the OnPasswordValidated event is triggered, and if it's invalid, the OnPasswordInvalid event is triggered.
 The class also maintains a WarningsList to store warning messages when any of the conditions are not met.
