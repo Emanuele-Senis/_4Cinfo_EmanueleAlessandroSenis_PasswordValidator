@@ -1,1 +1,1 @@
-# simmple Password Validation
+# simple Password Validation library written in c#
