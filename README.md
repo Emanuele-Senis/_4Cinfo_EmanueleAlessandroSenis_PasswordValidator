@@ -1,4 +1,4 @@
-# simple Password Validation 
+# Simple Password Validation 
 separate library written in c# + wpf user interface to show how to use it
 
 The class PasswordValidator validates passwords according to specific rules. It checks for the following conditions:
@@ -12,3 +12,21 @@ The class PasswordValidator validates passwords according to specific rules. It 
 The class provides a Validate method that checks if the password meets all these conditions.
 If the password is valid, the OnPasswordValidated event is triggered, and if it's invalid, the OnPasswordInvalid event is triggered.
 The class also maintains a WarningsList to store warning messages when any of the conditions are not met.
+
+## Example
+```c#
+PasswordValidator validator = new PasswordValidator(txt_password.Text);
+validator.OnPasswordValidated += OnPasswordValidated;
+validator.OnPasswordInvalid += OnPasswordInvalid;
+validator.Validate();
+
+private void OnPasswordInvalid()
+{
+    //run code logic
+}
+
+private void OnPasswordValidated()
+{
+    //run code logic
+}
+```
