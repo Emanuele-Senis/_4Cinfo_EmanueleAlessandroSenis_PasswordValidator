@@ -16,8 +16,12 @@ The class also maintains a WarningsList to store warning messages when any of th
 ## Example
 ```c#
 PasswordValidator validator = new PasswordValidator(txt_password.Text);
+
+//subscribe to the events
 validator.OnPasswordValidated += OnPasswordValidated;
 validator.OnPasswordInvalid += OnPasswordInvalid;
+
+//invoke corresponding events
 validator.Validate();
 
 private void OnPasswordInvalid()
