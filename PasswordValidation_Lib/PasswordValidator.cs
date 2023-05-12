@@ -12,7 +12,9 @@ namespace PasswordValidation_Lib
     /// </summary>
     public class PasswordValidator
     {
+        //attributes
         private readonly string _password;
+        
         public event Action OnPasswordValidated;
         public event Action OnPasswordInvalid;
 
