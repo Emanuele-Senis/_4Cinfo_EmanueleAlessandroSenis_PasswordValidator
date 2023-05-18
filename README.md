@@ -26,11 +26,11 @@ validator.Validate();
 
 private void OnPasswordInvalid()
 {
-    //run code logic
+    //run logic
 }
 
 private void OnPasswordValidated()
 {
-    //run code logic
+    //run logic
 }
 ```
