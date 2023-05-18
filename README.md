@@ -1,5 +1,5 @@
 # Simple Password Validation 
-separate library written in c# + wpf user interface to show how to use it
+This project contains the separate library written in c# + wpf user interface to show how to use it
 
 The class PasswordValidator validates passwords according to specific rules. It checks for the following conditions:
 
